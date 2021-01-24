@@ -10,9 +10,9 @@ public class Practice54 {
 	}
 	public static void main(String[] args) {
 		double triangle = calcTriangleArea(20,20);
-		System.out.println(triangle);
+		System.out.println("三角形の面積" + triangle + "平方cm");
 		
-		double circle = calcCircleArea(5);
-		System.out.println(circle);
+		double circle = calcCircleArea(5.0);
+		System.out.println("円の面積" + circle + "平方cm");
 	}
 }
